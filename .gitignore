@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Backend data (user-generated content)
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+frontend/dist/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
